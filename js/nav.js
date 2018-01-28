@@ -20,12 +20,20 @@ $( document ).ready(function() {
 			$('#first-choice').change(function(event){
 				var selectedTeam = $('#first-choice').val();
 				console.log(selectedTeam);
-				var teamCode = data.teams.map(function(a){
-					if(selectedTeam === a.name){
-						return a.code;
-					}
-				});
-				console.log(teamCode);
+				var teamData = data.teams.filter( a => a.name === selectedTeam);
+				console.log(teamData);
+				var teamCode = teamData[0].code;
+				console.log(teamCode);   //<<<<<<<<<<<<<<  THIS IS THE SELECTED TEAMS CODE USED TO FIND PLAYERS WITH MATCHING CODE
+
+				var playerList = data.elements.filter( a => a.team_code === teamCode);
+				console.log(playerList);
+
+				playerHtml = playerList.map(function(v,i) {
+			    return '<option value="' + v.second_name + '">' + v.second_name + '</option>'
+				}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
+
+				$('#second-choice').append(playerHtml); //<<<<<<<<<< THIS ADDS THE OPTIONS TO OPTION ONE
+
 			});
 
 	}); //<<<<< END OF VAR RESPONSE TO GET JSON
