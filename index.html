@@ -2,16 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Player comparison</title>
 
 		<!-- GOOGLE FONT -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
 
 		<!-- BOOTSTRAP CDN -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+		<!-- COMPILED SASS -->
     <link rel="stylesheet" href="app.css">
+
   </head>
   <body>
 
@@ -26,26 +28,44 @@
 			<ul id="teamsBanner"></ul>
 		</nav>
 
-		<div class="select">
-			<select id="first-choice">
-			</select>
+	<div class="container-fluid" id="main">
+		<div class="row">
 
-			<br>
+			<div class="player col-6" id="player1">
+				<div class="select row">
+					<select id="first-choice1" class="col-12 offset-6">
+					</select>
 
-			<select id="second-choice">
-				<option>Please choose from above</option>
-			</select>
+					<br>
+
+					<select id="second-choice1" class="col-12 offset-6">
+						<option>Please choose from above</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="player col-6" id="player2">
+				<div class="select row">
+					<select id="first-choice2" class="col-12 offset-6">
+					</select>
+
+					<br>
+
+					<select id="second-choice2" class="col-12 offset-6">
+						<option>Please choose from above</option>
+					</select>
+				</div>
+			</div>
+
 		</div>
+	</div>
 
 
 
 
 
 	<!-- JQUERY CDN -->
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- BOOTSTRAP CDN -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
