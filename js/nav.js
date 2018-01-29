@@ -11,7 +11,7 @@ $( document ).ready(function() {
 			// console.log(teamNames);
 
 			html = data.teams.map(function(v,i) {
-		    return '<option value="' + v.name + '">' + v.name + '</option>'
+		    return '<option class="listItem" value="' + v.name + '">' + v.name + '</option>'
 			}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
 
 			$('#first-choice').append(html); //<<<<<<<<<< THIS ADDS THE OPTIONS TO OPTION ONE
@@ -29,7 +29,7 @@ $( document ).ready(function() {
 				// console.log(playerList);  //<<<<<<<<<< THIS IS THE LIST OF PLAYERS IN THE SELECTED TEAM
 
 				playerHtml = playerList.map(function(v,i) {
-			    return '<option value="' + v.second_name + '">' + v.second_name + '</option>'
+			    return '<option class="listItem" value="' + v.second_name + '">' + v.second_name + '</option>'
 				}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
 
 				$('#second-choice').empty().append(playerHtml); //<<<<<<<<<< THIS ADDS THE PLAYERS TO OPTION TWO

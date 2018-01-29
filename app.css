@@ -184,8 +184,10 @@ hr {
   margin: 1.5em 0; }
 
 /* BASE STYLES */
-h1 {
-  color: #333; }
+/* VARIABLES */
+html,
+body {
+  font-family: "Roboto", sans-serif; }
 
 /* LAYOUT STYLES */
 /* MODULE STYLES */
@@ -198,13 +200,13 @@ h1 {
   text-align: center; }
   .select select {
     text-align: center;
-    font-family: "Arial";
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     display: inline-block;
     width: 100%;
     cursor: pointer;
     padding: 12px 30px;
     outline: 0;
-    border: 0px solid #000000;
     border-radius: 95px;
     background: #38003C;
     color: #FFFFFF;
@@ -221,37 +223,19 @@ h1 {
       opacity: 0.1;
       pointer-events: none; }
 
-::-webkit-scrollbar {
-  width: 9px;
-  height: 9px; }
+select {
+  text-align-last: center;
+  padding-right: 29px;
+  direction: inherit; }
+@:first-child {
+  select {
+    border-radius: 20% 20% 0 0; } }
+.listItem {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; }
 
-::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px; }
-
-::-webkit-scrollbar-thumb {
-  background: #ffffff;
-  border: 0px none #32003c;
-  border-radius: 39px; }
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; }
-
-::-webkit-scrollbar-thumb:active {
-  background: #ffffff; }
-
-::-webkit-scrollbar-track {
-  background: #32003c;
-  border: 0px none #ffffff;
-  border-radius: 50px; }
-
-::-webkit-scrollbar-track:hover {
-  background: #32003c; }
-
-::-webkit-scrollbar-track:active {
-  background: #32003c; }
-
-::-webkit-scrollbar-corner {
-  background: transparent; }
+/* BANNER STYLES */
+.navbar-brand {
+  width: 100px; }
 
 /*# sourceMappingURL=app.css.map */
