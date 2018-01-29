@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+
 
 	var response = $.getJSON('../data.json',function(){
 		var data = response.responseJSON;
@@ -61,4 +61,3 @@ $( document ).ready(function() {
 
 
 	}); //<<<<< END OF VAR RESPONSE TO GET JSON
-}); //<<<<<< END OF DOCUMENT.READY

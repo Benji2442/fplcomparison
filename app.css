@@ -193,11 +193,7 @@ body {
 /* MODULE STYLES */
 /* DROPDOWN STYLES */
 .select {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 15px;
-  width: 300px;
-  text-align: center; }
+  padding-top: 20px; }
   .select select {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -233,6 +229,15 @@ select {
 .listItem {
   font-family: "Roboto", sans-serif;
   font-weight: 500; }
+
+#main {
+  border-top: 1px solid #EBEBE4; }
+
+#dropdownWrapper {
+  height: 100vh; }
+
+#player1 {
+  border-right: 1px solid #EBEBE4; }
 
 /* BANNER STYLES */
 .navbar-brand {

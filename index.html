@@ -17,10 +17,6 @@
   </head>
   <body>
 
-		<header>
-
-		</header>
-
 		<nav id="bannerWrapper" class="navbar navbar-light bg-light">
 		  <img class="navbar-brand"
 				src="https://www.premierleague.com/resources/ver/i/elements/premier-league-logo-header.png">
@@ -29,36 +25,44 @@
 		</nav>
 
 	<div class="container-fluid" id="main">
-		<div class="row">
 
-			<div class="player col-6" id="player1">
-				<div class="select row">
-					<select id="first-choice1" class="col-12 offset-6">
-					</select>
+		<div class="row" id="dropdownWrapper">
 
-					<br>
+			<div class="col-6"> <!--- PLAYER ONE ------>
+				<div class="player" id="player1">
+					<div class="select row">
+						<select id="first-choice1" class="col-6 offset-3">
+						</select>
 
-					<select id="second-choice1" class="col-12 offset-6">
-						<option>Please choose from above</option>
-					</select>
+						<br>
+
+						<select id="second-choice1" class="col-6 offset-3">
+							<option>Please choose from above</option>
+						</select>
+					</div>
 				</div>
-			</div>
 
-			<div class="player col-6" id="player2">
-				<div class="select row">
-					<select id="first-choice2" class="col-12 offset-6">
-					</select>
+				<div id="avatar1"></div>
 
-					<br>
+			</div> <!--- PLAYER ONE ------>
 
-					<select id="second-choice2" class="col-12 offset-6">
-						<option>Please choose from above</option>
-					</select>
+			<div class="col-6"> <!--- PLAYER TWO ------>
+				<div class="player" id="player2">
+					<div class="select row">
+						<select id="first-choice2" class="col-6 offset-3">
+						</select>
+
+						<br>
+
+						<select id="second-choice2" class="col-6 offset-3">
+							<option>Please choose from above</option>
+						</select>
+					</div>
 				</div>
-			</div>
+			</div> <!--- PLAYER TWO ------>
 
-		</div>
-	</div>
+		</div> <!--- END OF dropdownWrapper ------>
+	</div> <!--- END OF MAIN ------>
 
 
 
@@ -72,6 +76,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	<script src="js/nav.js"></script>
+	<script src="js/dataLoad.js"></script>
 
   </body>
 </html>
