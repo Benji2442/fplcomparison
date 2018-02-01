@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 		<!-- HANDLEBARS CDN -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.amd.js">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.amd.js"> -->
 
 		<!-- COMPILED SASS -->
     <link rel="stylesheet" href="app.css">
@@ -43,6 +43,7 @@
 							<option>Please choose from above</option>
 						</select>
 					</div>
+					<div id="content"></div>
 				</div>
 
 				<div id="avatar1"></div>
@@ -78,8 +79,29 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+	<script src="js/handlebars-v4.js"></script>
 	<script src="js/nav.js"></script>
 	<script src="js/dataLoad.js"></script>
+
+	<!-- HANDLEBARS  -->
+	<script type="text/x-handlebars-template" id="data-template">
+		<div id="wrapper">
+			<ul>
+				<li>Cost: {{bonus}}</li>
+			</ul>
+		</div>
+	</script>
+
+	<!-- <script>
+		$('#second-choice1').change(function(event){
+			$('#content').empty();
+			var source   = $("#data-template").html();
+			var template = Handlebars.compile(source);
+			var html    = template(selectedPlayer);
+
+			$('#content').append(html);
+		});
+	</script> -->
 
   </body>
 </html>
