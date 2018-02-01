@@ -243,4 +243,13 @@ select {
 .navbar-brand {
   width: 100px; }
 
+/* DATA AND LIST STYLES */
+#list {
+  text-align: center; }
+  #list li {
+    padding: 10px;
+    font-size: 1.25rem; }
+  #list li:nth-child(odd) {
+    background-color: #EBEBE4; }
+
 /*# sourceMappingURL=app.css.map */
