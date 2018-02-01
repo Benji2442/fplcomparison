@@ -20,11 +20,35 @@
   </head>
   <body>
 
-		<nav id="bannerWrapper" class="navbar navbar-light bg-light">
-		  <img class="navbar-brand"
-				src="https://www.premierleague.com/resources/ver/i/elements/premier-league-logo-header.png">
-		  </img>
-			<ul id="teamsBanner"></ul>
+		<nav id="bannerWrapper" class="navbar navbar-light bg-light justify-content-between">
+			<div class="row align-items-center">
+				<img class="navbar-brand"
+					src="https://www.premierleague.com/resources/ver/i/elements/premier-league-logo-header.png">
+				</img>
+				<ul id="teamsBanner">
+					<li id="BOU"></li>
+					<li id="ARS"></li>
+					<li id="BHA"></li>
+					<li id="BUR"></li>
+					<li id="CHE"></li>
+					<li id="CRY"></li>
+					<li id="EVE"></li>
+					<li id="HUD"></li>
+					<li id="LEI"></li>
+					<li id="LIV"></li>
+					<li id="MCI"></li>
+					<li id="MUN"></li>
+					<li id="NEW"></li>
+					<li id="SOU"></li>
+					<li id="STK"></li>
+					<li id="SWA"></li>
+					<li id="TOT"></li>
+					<li id="WAT"></li>
+					<li id="WBA"></li>
+					<li id="WHU"></li>
+				</ul>
+			</div>
+			<h3>Choose a player from each dropdown to compare stats</h3>
 		</nav>
 
 	<div class="container-fluid" id="main">
@@ -42,11 +66,9 @@
 						<select id="second-choice1" class="col-6 offset-3">
 							<option>Please choose from above</option>
 						</select>
+						<div id="content" class="col-12"></div>
 					</div>
-					<div id="content"></div>
 				</div>
-
-				<div id="avatar1"></div>
 
 			</div> <!--- PLAYER ONE ------>
 
@@ -61,6 +83,7 @@
 						<select id="second-choice2" class="col-6 offset-3">
 							<option>Please choose from above</option>
 						</select>
+						<div id="content2" class="col-12"></div>
 					</div>
 				</div>
 			</div> <!--- PLAYER TWO ------>

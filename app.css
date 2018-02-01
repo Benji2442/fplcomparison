@@ -193,6 +193,7 @@ body {
 /* MODULE STYLES */
 /* DROPDOWN STYLES */
 .select {
+  border-right: 1px solid #EBEBE4;
   padding-top: 20px; }
   .select select {
     text-align: center;
@@ -234,20 +235,189 @@ select {
   border-top: 1px solid #EBEBE4; }
 
 #dropdownWrapper {
-  height: 100vh; }
-
-#player1 {
-  border-right: 1px solid #EBEBE4; }
+  min-height: 80vh; }
 
 /* BANNER STYLES */
+h3 {
+  text-align: center; }
+
 .navbar-brand {
-  width: 100px; }
+  width: 125px;
+  margin: 0;
+  float: left; }
+
+#teamsBanner {
+  float: left; }
+
+#BOU {
+  background-position: -100px -250px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#ARS {
+  background-position: 0 -100px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#BHA {
+  background-position: -200px -200px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#BUR {
+  background-position: -50px -300px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#CHE {
+  background-position: -300px -300px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#CRY {
+  background-position: -100px -350px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#EVE {
+  background-position: 0 -400px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#HUD {
+  background-position: -150px -450px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#LEI {
+  background-position: 0 0;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#LIV {
+  background-position: -500px -450px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#MCI {
+  background-position: -500px -500px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#MUN {
+  background-position: -550px -400px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#NEW {
+  background-position: -550px -500px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#SOU {
+  background-position: -650px -500px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#STK {
+  background-position: -100px -650px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#SWA {
+  background-position: -400px -650px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#TOT {
+  background-position: -500px -650px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#WAT {
+  background-position: -700px -50px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#WBA {
+  background-position: -700px -100px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+#WHU {
+  background-position: -700px -150px;
+  background-image: url("https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/sprites/badges-50-sprite.png?ba5681f73198");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
 
 /* DATA AND LIST STYLES */
+#content2,
+#content {
+  padding: 0; }
+
 #list {
   text-align: center; }
   #list li {
-    padding: 10px;
+    padding: 10px 0;
     font-size: 1.25rem; }
   #list li:nth-child(odd) {
     background-color: #EBEBE4; }
