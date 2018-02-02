@@ -435,6 +435,9 @@ h3 {
   #list li:nth-child(odd) {
     background-color: #EBEBE4; }
 
+@media (max-width: 991.98px) {
+  #list li {
+    font-size: 0.8rem; } }
 /* FOOTER STYLES */
 .site-footer {
   height: 15vh;
