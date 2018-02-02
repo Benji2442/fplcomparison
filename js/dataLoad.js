@@ -1,4 +1,4 @@
-var dataResponse = $.getJSON('../data.json',function(){
+var dataResponse = $.getJSON('https://cors-anywhere.herokuapp.com/https://fantasy.premierleague.com/drf/bootstrap-static',function(){
 	var data = response.responseJSON;
 	$('#second-choice1').change(function(){
 		var selectedPlayer1 = $('#second-choice1').val();

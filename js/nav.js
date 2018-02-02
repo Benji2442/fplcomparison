@@ -1,6 +1,6 @@
 
 
-	var response = $.getJSON('../data.json',function(){
+	var response = $.getJSON('https://cors-anywhere.herokuapp.com/https://fantasy.premierleague.com/drf/bootstrap-static',function(){
 		var data = response.responseJSON;
 		console.log(data);
 
