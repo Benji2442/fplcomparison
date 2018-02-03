@@ -13,7 +13,7 @@
 			html = data.teams.map(function(v,i) {
 		    return '<option class="listItem" value="' + v.name + '">' + v.name + '</option>'
 			}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
-
+			html = '<option class="listItem" value="">Select Team</option>' + html;  //<< ADDS BLANK OPTION FIRST
 			$('#first-choice1, #first-choice2').append(html); //<<<<<<<<<< THIS ADDS THE OPTIONS TO OPTION ONE
 
 
@@ -31,7 +31,7 @@
 				playerHtml = playerList.map(function(v,i) {
 			    return '<option class="listItem" value="' + v.second_name + '">' + v.second_name + '</option>'
 				}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
-
+				playerHtml = '<option class="listItem" value="">Select Player</option>' + playerHtml;  //<< ADDS BLANK OPTION FIRST
 				$('#second-choice1').empty().append(playerHtml); //<<<<<<<<<< THIS ADDS THE PLAYERS TO OPTION TWO
 
 			}); //<<<<< END OF .CHANGE FUNCTION FOR PLAYER 1
@@ -55,8 +55,8 @@
 			    return '<option class="listItem" value="' + v.second_name + '">' + v.second_name + '</option>'
 				}).join(''); //<<<<<<<<< THIS CREATES EACH OPTION ITEM
 
+				playerHtml = '<option class="listItem" value="">Select Player</option>' + playerHtml; //<< ADDS BLANK OPTION FIRST
 				$('#second-choice2').empty().append(playerHtml); //<<<<<<<<<< THIS ADDS THE PLAYERS TO OPTION TWO
-
 			}); //<<<<< END OF .CHANGE FUNCTION FOR PLAYER 2
 
 
